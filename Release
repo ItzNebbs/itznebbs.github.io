@@ -1,0 +1,12 @@
+Origin: Nebbs' Repo
+Label: Nebbs' Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64e
+Components: main
+Description: Collection of my free packages!
+
+SHA256:
+	62a88c6d2191c4d083269b8c273a0d3262dde1c556c6ca04c99b925b26aa5800 2767 Packages.bz2
+	fc22254eb6d26df7bfee0d071621a6641e350760f6847574df8bcea5255d585c 2460 Packages.xz

@@ -1,0 +1,35 @@
+Package: com.itznebbs.phoenix
+Name: Phoenix
+Depends: firmware (>=15.0)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Collection of classes used in my tweaks.
+Filename: ./debs/phoenix-1.1-roothide.deb
+Icon: https://repo.itznebbs.com/icons/phoenix.png
+Size: 64372
+MD5sum: a84c243f76923c4e074e0f770a1fae3a
+SHA1: fe6130ddc29b301cda849557d9a616ab17d4f0ec
+SHA256: 932c31657d89ba6a305f2174fd5acf7fbd9e7b82072b223ec0a8ba40366d3235
+Maintainer: Nebbs
+Author: Nebbs
+Section: Development
+Depiction: https://repo.itznebbs.com/depictions/web/com.itznebbs.phoenix.html
+SileoDepiction: https://repo.itznebbs.com/depictions/native/com.itznebbs.phoenix.json
+
+Package: com.itznebbs.twister
+Name: Twister
+Depends: firmware (>=15.0), preferenceloader, com.itznebbs.phoenix (>=1.1)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bring animations to your icons!
+Filename: ./debs/twister-1.0-roothide.deb
+Icon: https://repo.itznebbs.com/icons/twister.png
+Size: 468732
+MD5sum: 22afe3c7ff4162afa8519c0f854c1401
+SHA1: 43c26ea2397c4b9723f4d14aa1cdd33e9b394b17
+SHA256: 25691bf063c8b4781daccd960b38473fb4da77bbb2ed459f53413f9cadae779a
+Maintainer: Nebbs
+Author: Nebbs
+Section: Tweaks
+Depiction: https://repo.itznebbs.com/depictions/web/com.itznebbs.twister.html
+SileoDepiction: https://repo.itznebbs.com/depictions/native/com.itznebbs.twister.json

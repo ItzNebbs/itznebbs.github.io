@@ -1,0 +1,159 @@
+*:not(html, body, .projects) {
+	font-family: 'Nunito', sans-serif;
+	overflow: hidden;
+}
+
+html {
+	background-color: #202020;
+	color: white;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+hr {
+	clear: left;
+	border-top: 2px solid;
+	border-color: #404040;
+}
+
+.depiction {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 6px 12px;
+	border-top: none;
+}
+
+.depiction-header {
+	background-color: #303030;
+	width: 60%;
+	margin-top: 30px;
+	margin-left: 20%;
+	border-radius: 20px;
+	height: auto;
+}
+
+.package-icon {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border-radius: 25%;
+}
+
+.package-info {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+.package-name {
+	font-size: 20px;
+	font-weight: 700;
+	float: left;
+	clear: left;
+}
+
+.package-author {
+	font-size: 18px;
+	font-weight: 600;
+	float: left;
+	clear: left;
+	color: #bbbbbb;
+}
+
+.depiction-section {
+	background-color: #303030;
+	width: 60%;
+	margin-top: 45px;
+	margin-left: 20%;
+	border-radius: 20px;
+	height: auto;
+}
+
+.depiction-label {
+	float: left;
+	clear: left;
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.package-description {
+	float: left;
+	clear: left;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	color: #bbbbbb;
+}
+
+.changelog-version {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 5px;
+	margin-left: 15px;
+	float: left;
+	clear: left;
+	color: #bbbbbb;
+}
+
+.changelog-date {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 5px;
+	margin-right: 15px;
+	float: right;
+	color: #bbbbbb;
+}
+
+.changelog-body {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	float: left;
+	clear: left;
+	color: #bbbbbb;
+}
+
+.depiction-footer {
+	background-color: #303030;
+	width: 60%;
+	margin-top: 45px;
+	margin-left: 20%;
+	border-radius: 20px;
+	height: auto;
+}
+
+.footer-title {
+	float: left;
+	clear: left;
+	margin-left: 15px;
+	font-size: 18px;
+	color: #bbbbbb;
+}
+
+.footer-label {
+	float: right;
+	margin-right: 15px;
+	font-size: 18px;
+	color: #dddddd;
+}

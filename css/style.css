@@ -1,0 +1,98 @@
+*:not(html, body, .projects) {
+	font-family: 'Nunito', sans-serif;
+	overflow: hidden;
+}
+
+html {
+	background-color: #202020;
+	color: white;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.tab-content {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 6px 12px;
+	border-top: none;
+}
+
+.avatar {
+	height: 140px;
+	width: 140px;
+	border-radius: 25%;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.repo-buttons {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: auto;
+}
+
+.repo-button {
+	display: inline-block;
+	border-radius: 12.5px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-right:10px;
+	background-color: #303030;
+}
+
+.repo-button:hover {
+	background-color: rgb(70, 70, 70) !important;
+}
+
+.repo-button:nth-of-type(1) {
+	margin-right: 7.5px;
+}
+
+.repo-button:nth-of-type(2) {
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+}
+
+.repo-button:nth-of-type(3) {
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+}
+
+.repo-button:nth-of-type(4) {
+	margin-left: 7.5px;
+}
+
+.repo-icon {
+	height: 50px;
+	width: 50px;
+	border-radius: 12.5px;
+}
+
+.repo-button span {
+	font-size: 18px;
+}
