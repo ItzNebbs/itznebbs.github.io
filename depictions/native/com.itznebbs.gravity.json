@@ -6,7 +6,7 @@
 		"tabname": "Details",
 		"views": [{
 			"class": "DepictionLabelView",
-			"text": "Bring animations to your icons!",
+			"text": "Bring gravity to your home screen!",
 			"fontSize": 16,
 			"fontWeight": "medium"
 		}, {
@@ -25,7 +25,7 @@
 		}, {
 			"class": "DepictionTableTextView",
 			"title": "Last Updated",
-			"text": "January 27, 2024"
+			"text": "January 29, 2024"
 		}, {
 			"class": "DepictionTableTextView",
 			"title": "Compatibility",
